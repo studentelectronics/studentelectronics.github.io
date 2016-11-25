@@ -1,17 +1,38 @@
-html{
-    width: 100%;
+
+
+html, body
+{
+    height: 100%;
 }
 
-.background
+#background
 {
     background-color: #ffffff;
+}
+
+.contain
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .headbar
 {
     background-color: #a5aecf;
     width: 100%;
+    max-height: 340px;
+    display: block;
+    position: absolute;
     padding-left: 90px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.headbarMenu:hover
+{
+    background-color: #ffffff;
 }
 
 .headbarTitle
@@ -25,7 +46,7 @@ html{
     margin-right: 30px;
     line-height: 2.5;
     float: left;
-    font-size: 23;
+    font-size: 23px;
 }
 
 .headbarMenu
@@ -34,12 +55,15 @@ html{
     color: #010B1B;
     float: left;
     letter-spacing: 1px;
-    font-size: 12;
+    font-size: 12px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
-    margin-top: -2px;
     display: block;
     position: relative;
+    list-style: none;
+    margin-right: 17px;
+    padding: 10px 15px;
+    margin-top: -2px;
 }
 
 .navMenu
@@ -47,6 +71,7 @@ html{
     position: relative;
     display: block;
     text-decoration: none;
+    list-style: none;
 }
 
 a:hover
@@ -60,7 +85,11 @@ a:hover
     background-color: rgba(234, 243, 255, 0.25);
     border: 1px solid rgba(119, 136, 167, 0.26);
     width: 71%;
-    margin: 110 auto 0;
+    margin: 110px auto 0;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 39px;
+    font-family: 'ubuntu', sans-serif;
 }
 
 .dealWeek h1
@@ -69,26 +98,26 @@ a:hover
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
     line-height: 1.5;
-    margin-left: 20;
-    margin-top: 20;
-    letter-spacing: 2.3;
-    font-size: 22;
+    margin-left: 20px;
+    margin-top: 20px;
+    letter-spacing: 2.3px;
+    font-size: 22px;
 }
 
 .featuredDeal
 {
-    margin-left: 20;
+    margin-left: 20px;
     color: rgba(1, 11, 27, 0.84);
     font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 2.3;
-    margin-right: 20;
-    font-size: 17;
+    letter-spacing: 2.3px;
+    margin-right: 20px;
+    font-size: 17px;
 }
 
 .dealPrice
 {
     float: right;
-    font-size: 40;
+    font-size: 40px;
     vertical-align: top;
     display: inline;
     color: #0E326D;
@@ -144,7 +173,6 @@ a:hover
 .dealweek li
 {
     line-height: 2.9;
-    font-size: 75%;
     color: rgba(3, 6, 26, 0.85);
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1px;
@@ -498,5 +526,9 @@ a:hover
     line-height: 25px;
     letter-spacing: 0.5px;
     font-weight: bold;
+}
+
+#dealDescription
+{
 }
 
