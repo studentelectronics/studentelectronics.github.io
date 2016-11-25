@@ -1,10 +1,5 @@
 
 
-html, body
-{
-    height: 100%;
-}
-
 #background
 {
     background-color: #ffffff;
@@ -12,22 +7,19 @@ html, body
 
 .contain
 {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .headbar
 {
     background-color: #a5aecf;
     width: 100%;
-    max-height: 340px;
     display: block;
     position: absolute;
     padding-left: 90px;
-    margin-left: -8px;
     margin-top: -8px;
+    margin-left: -8px;
 }
 
 .headbarMenu:hover
