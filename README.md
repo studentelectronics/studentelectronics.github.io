@@ -1,1 +1,3 @@
-# studentelectronics.github.io
+# studentelectronics
+
+student electronics repository
