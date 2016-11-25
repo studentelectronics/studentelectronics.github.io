@@ -30,12 +30,21 @@
 {
     text-decoration: none;
     color: #010B1B;
-    float: right;
+    float: left;
     letter-spacing: 1px;
     font-size: 12;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
-    margin-top: 6px;
+    margin-top: -2px;
+    display: block;
+    position: relative;
+}
+
+.navMenu
+{
+    position: relative;
+    display: block;
+    text-decoration: none;
 }
 
 a:hover
