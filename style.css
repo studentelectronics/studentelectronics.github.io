@@ -322,12 +322,13 @@ a:hover
     letter-spacing: 1px;
 }
 
-.categoryButtonRow a
+.categoryButtonRow p
 {
     text-decoration: none;
     color: #01003c;
     text-shadow: 1px 1px 9px #ffffff;
     float: left;
+    margin-top: 0px;
 }
 
 .categoryButtonRow a:hover
