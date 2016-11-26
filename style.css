@@ -7,9 +7,8 @@
 
 .contain
 {
-    margin-left: 60px;
     float: left;
-    width: 95%;
+    width: 100%;
 }
 
 .headbar
@@ -39,7 +38,7 @@
     line-height: 2.5;
     float: left;
     font-size: 23px;
-    margin-left: 70px;
+    margin-left: 150px;
 }
 
 .headbarMenu
@@ -116,10 +115,10 @@ a:hover
     vertical-align: top;
     display: inline;
     color: #0E326D;
-    font-family: Langdon;
     line-height: 0;
     margin-top: -7px;
     margin-right: 12px;
+    font-family: 'ek mukta', sans-serif;
 }
 
 .headbarTitle:hover
