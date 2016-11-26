@@ -21,7 +21,6 @@
     margin-top: -8px;
     margin-left: -8px;
     padding-left: 90px;
-    margin-bottom: 50px;
 }
 
 .headbarMenu:hover
@@ -85,7 +84,7 @@ a:hover
     letter-spacing: 0.5px;
     line-height: 39px;
     font-family: 'ubuntu', sans-serif;
-    margin: 90px auto 0;
+    margin: 30px auto 0;
 }
 
 .dealWeek h1
