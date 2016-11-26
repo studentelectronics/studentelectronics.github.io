@@ -504,13 +504,10 @@ a:hover
 .pageFoot
 {
     height: 50px;
-    bottom: 0;
-    right: 0;
-    left: 0;
     width: 100%;
-    background-color: rgba(119, 130, 173, 0.77);
-    position: absolute;
-    display: block;
+    background-color: rgba(55, 50, 122, 0.41);
+    margin-top: 55px;
+    padding-left: 9px;
 }
 
 .pageFoot span
