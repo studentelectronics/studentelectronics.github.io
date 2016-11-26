@@ -9,6 +9,7 @@
 {
     margin-left: 60px;
     float: left;
+    width: 100%;
 }
 
 .headbar
@@ -17,9 +18,9 @@
     width: 100%;
     display: block;
     position: absolute;
-    padding-left: 90px;
     margin-top: -8px;
     margin-left: -8px;
+    padding-left: 90px;
 }
 
 .headbarMenu:hover
@@ -50,12 +51,9 @@
     font-size: 12px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
-    display: block;
-    position: relative;
     list-style: none;
-    margin-right: 17px;
-    padding: 10px 15px;
-    margin-top: -2px;
+    padding: 15px 20px;
+    margin-top: -8px;
 }
 
 .navMenu
@@ -71,17 +69,22 @@ a:hover
     text-decoration: none;
 }
 
+.dealContainer
+{
+    margin-top: 78px;
+}
+
 .dealWeek
 {
     height: 345px;
     background-color: rgba(234, 243, 255, 0.25);
     border: 1px solid rgba(119, 136, 167, 0.26);
     width: 71%;
-    margin: 110px auto 0;
     font-size: 14px;
     letter-spacing: 0.5px;
     line-height: 39px;
     font-family: 'ubuntu', sans-serif;
+    margin: 50px auto 0;
 }
 
 .dealWeek h1
