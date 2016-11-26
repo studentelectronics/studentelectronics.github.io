@@ -1,0 +1,18 @@
+
+/*Changing the background color of the deal box*/
+.categoryPageDeal
+{
+    background-color: #011026;
+}
+/*Changing the color of the deal price*/
+.categoryPageDeal h2
+{
+    color: #00a5ff;
+}
+/*Set the color of the deal adjective*/
+.cool
+{
+    color: #83d1fb;
+    text-decoration: underline;
+}
+
