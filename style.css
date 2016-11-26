@@ -9,7 +9,7 @@
 {
     margin-left: 60px;
     float: left;
-    width: 100%;
+    width: 95%;
 }
 
 .headbar
@@ -18,7 +18,7 @@
     width: 100%;
     display: block;
     position: absolute;
-    margin-top: -8px;
+    margin-top: -48px;
     margin-left: -8px;
     padding-left: 90px;
 }
