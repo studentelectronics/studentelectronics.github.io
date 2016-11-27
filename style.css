@@ -352,11 +352,11 @@ a:hover
 .productTable td
 {
     font-size: 18px;
-    padding-top: 30px;
     line-height: 37px;
     font-weight: lighter;
     text-align: left;
     text-decoration: none;
+    padding-top: 30px;
 }
 
 .productTable a
@@ -461,8 +461,9 @@ a:hover
 .productImage
 {
     object-fit: cover;
-    width: 204px;
     float: left;
+    height: 150px;
+    width: 204px;
 }
 
 .shopDealButton:hover
