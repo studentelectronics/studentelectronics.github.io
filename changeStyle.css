@@ -1,0 +1,21 @@
+
+
+.changesMadeBox
+{
+    margin: 110px auto 50px;
+    height: 400px;
+    width: 71%;
+}
+
+.changesMadeBox h1
+{
+    font-size: 26px;
+    color: #08004a;
+    font-family: 'ubuntu';
+}
+
+.changesMadeBox li
+{
+    font-family: 'ek mukta';
+}
+
