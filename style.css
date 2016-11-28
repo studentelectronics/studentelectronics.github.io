@@ -462,8 +462,8 @@ a:hover
 {
     object-fit: cover;
     float: left;
-    height: 150px;
-    width: 204px;
+    height: 204px;
+    width: 178px;
 }
 
 .shopDealButton:hover
