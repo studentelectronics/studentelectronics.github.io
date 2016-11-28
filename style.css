@@ -277,6 +277,9 @@
 .categoryButtonRow
 {
     letter-spacing: 1px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .productTable
